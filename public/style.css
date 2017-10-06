@@ -1,140 +1,111 @@
-body{
-  background: white;
-  color: rgb(15,15,15);
-  font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
-}
-h1{
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  font-weight: lighter;
-  font-size: 60px;
-}
-h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
-}
-a {
-  color: black;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: none;
-  color: #8F2425;
-}
 
-#footer a {
-  color: lightgrey;
-  font-size: 15px;
-}
-#footer a:hover {
-  color: white;
+/* style.css */
+body{
+  font-weight: lighter;
+  font-size: 25px;
+  font-family: 'Lora', serif;
 }
 
 #banner{
   text-align: center;
-  background-image: linear-gradient(-225deg, transparent 0%, rgba(0,0,0,0.5) 60%), url("images/bootcamp.gif");
+  background-image: url("https://unsplash.it/1300/600?random");
+  opacity: 80%;
   background-size: cover;
-  padding-top: 150px;
-  height: 100vh;
+  padding: 150px;
   color: white;
-
+  text-shadow: 1px 1px 2px black;
 }
-
-#gif{
-  text-align: center;
-  background-image: url("images/hello.gif");
-  background-size: cover;
-  padding: 30vw 0;
-  color: white;
-  overflow-y: hidden;
-}
-
 #banner h1 {
-  color: white;
-  font-size: 50px;
+  text-align: center; 
+  font-family:'Merriweather', serif;
+  color: #1B4079;
   font-weight: bolder;
-  text-shadow: 1px 1px 5px black;
-  padding-top: 30px;
+  font-size: 50px;
+  text-shadow: 2px 2px 5px white;
 }
+
 #banner p {
-  color: rgb(230,23);
+  color: white;
   opacity: 0.8;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: lighter;
-  text-shadow: 1px 1px 5px black;
-  padding-bottom: 40px
 }
 #footer{
   padding: 30px;
-  background: rgb(30, 30, 30);
-  color: lightgrey;
+  background: #CBDF90;
+  color: #CBDF90;
 }
 .card{
-  padding: 70px 30px;
-  font-weight: lighter;
   text-align: center;
+  font-weight: lighter;
+  padding:50px;
+  margin-top:30px;
 }
 
-.icon-size {
+.card-blue {
+  background-color: #8EB8E5;
+}
+
+.card-blue2 
+{
+  background-color: #7C99B4;
+}
+
+.card-blue3 {
+  background-color: #ADEEE3;
+}
+
+.card-blue4 {
+  background-color: #63B995;
+  padding-bottom: 85px;
+}
+
+.card h2 {
+  font-family: 'Lora', serif;
+  color: #CBDF90; 
+  font-weight: lighter;
+  font-size: 35px;  
+}
+
+a {
+  color: green;
+}
+a:hover {
+  text-decoration: none;
+  color: yellow;
+}
+
+#footer{ 
+background-color: #CBDF90;
+color: #E8F0FF; 
+ }
+
+#footer a {
+  color: white;
+  font-size: 40px;
+  margin:30px;
+  padding: 25px;
+}
+#footer a:hover {
   font-size: 50px;
 }
 
-.form-margin {
-  margin-top: 20px;
-}
+#yt:hover{ 
+color: red
+ }
 
-.btn-red {
-  color: white;
-  background-color: #D23333;
-}
+ #fb:hover{ 
+color: blue;
+ }
 
-#wufoo-sx0l84z1iszo7g {
-  padding: 50px 30px;
-}
+ #twitter:hover{ 
+color: lightblue;
+ }
 
-.cta {
-  background-color: rgb(220,220,220);
-  padding: 50px;
-}
+ #github:hover{ 
+color: lightgrey;
+  }
 
-#footer a {
-  font-size: 30px;
-}
-
-#footer a:hover {
-  color: #D23333;
-}
-
-/*Search List style*/
-
-.card-list {
-  display: flex;
-  background-color: rgb(240, 240, 240);
-  overflow-wrap: normal;
-  padding: 30px 90px;
-}
-
-.card-list:hover {
-  background-color: rgb(230, 230, 230);
-}
-
-
-
-.card-list-text {
-flex: 1 1 70%;
-text-align: left;
-padding:0 20px;
-}
-
-.card-list-text p {
-font-weight: lighter
-}
-
-.card-list-text h6 {
-font-style: italic;
-margin-top: 30px;
-}
-
-.card-list-img {
-  flex: 0 1 auto;
-}
+.form-wufoo { 
+margin:60px;
+ }
